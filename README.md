@@ -13,15 +13,15 @@ Circuit Scheme
 1) Download  Arduino IDE, check updates and add `.zip` library from archive.
 2) Open `main.ino` file find and edit next lines:
 
->
+`
 const char* ssid = "YOU_PHONE_WI-FI_SSID";    //SSID Wi-Fi AP
 const char* password = "WI-FI_AP_PASS";           //PWD
 const char* host = "your.message_server.com"; //Message server 
-
+`
 and
-
+`
 String url = "/PATH_TO_LED_FILE/led.php?rnd="; //PATH TO FILE WHITH MESSAGE (like: "/led.php?rnd=")
-
+`
 3) Create `led.php` example:
  ```php
  <?
