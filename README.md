@@ -22,7 +22,8 @@ and
 ```php
 String url = "/PATH_TO_LED_FILE/led.php?rnd="; //PATH TO FILE WHITH MESSAGE (like: "/led.php?rnd=")
 ```
-3) Create `led.php` example:
+3) Create `led.php` on your WEB-server 
+example:
  ```php
  <?
  echo "LED:HELLO WORLD"
